@@ -136,8 +136,22 @@ doHandlePhysics:
 		+notMaxedAccAmount
         STA myAcc
 	+doneWithAccFetch
-	
-	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	;;; Increase max speed if player AND button pressed
+	;;; check if it is the player
+	CPX player1_object ; Check if x is the player 1 object
+	BNE +ignoreFastCheck ; if it's not, go to +ignoreFastCheck
+		;; if it IS the player 1 object
+		LDA gamepad
+		AND #%00000010 ;; first 4 d-pad, select, start, b, a (so this is if b is pressed)
+		BEQ +ignoreFastCheck
+			;; it is player AND b button is pressed
+			LDA #$00
+			STA myMaxSpeed
+			LDA #$02 ;; change max speed to 32
+			STA myMaxSpeed+1
+	+ignoreFastCheck
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
 	
 		LDA ObjectBboxLeft,y
 		STA self_left

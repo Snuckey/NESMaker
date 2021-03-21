@@ -1,5 +1,5 @@
 ;; *************** MonsterList.txt ***************
-;; Monster list export. Sunday, March 21, 2021 2:10:34 PM
+;; Monster list export. Sunday, March 21, 2021 2:41:38 PM
 
 ;;;; 0	GameItem: Player ID=0
 ;;;; 1	GameItem: Carrot ID=1
