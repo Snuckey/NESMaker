@@ -1,18 +1,6 @@
-;;;;;;;;;;;;;Text export info: 12/1/2020 9:48:14 AM
+;;;;;;;;;;;;;Text export info: 3/21/2021 12:07:29 PM
 Text0:    ;;;;; Entry 0
-  .db _T, _H, _I, _S, _SPACE, _I, _S, _SPACE, _T, _E, _X, _T, _BREAK
-  .db _F, _O, _R, _SPACE, _R, _E, _A, _L, _BREAK
-  .db _I, _T, _SPACE, _I, _S, _BREAK
-  .db _T, _E, _X, _T, _SPACE, _A, _N, _D, _BREAK
-  .db _A, _SPACE, _T, _E, _S, _T, _SPACE, _O, _F, _BREAK
-  .db _T, _E, _X, _T, _PERIOD, _SPACE, _BREAK
-  .db _MORE, _M, _O, _R, _E, _PERIOD, _SPACE, _T, _H, _E, _R, _E, _BREAK
-  .db _I, _S, _SPACE, _A, _L, _S, _O, _BREAK
-  .db _M, _O, _R, _E, _SPACE, _T, _E, _X, _T, _BREAK
-  .db _H, _E, _R, _E, _PERIOD, _SPACE, _T, _H, _I, _S, _BREAK
-  .db _I, _S, _SPACE, _T, _H, _E, _SPACE, _T, _H, _I, _N, _G, _BREAK
-  .db _I, _SPACE, _L, _I, _K, _SPACE, _L, _E, _A, _S, _T, _BREAK
-  .db _A, _B, _O, _U, _T, _SPACE, _T, _H, _I, _S, _PERIOD, _END
+ ;; null, no values
 Text1:    ;;;;; Entry 1
  ;; null, no values
 Text2:    ;;;;; Entry 2

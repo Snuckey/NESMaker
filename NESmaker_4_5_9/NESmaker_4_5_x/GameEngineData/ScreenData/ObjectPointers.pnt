@@ -2,16 +2,64 @@
 ;;;; 0 GameItem: Player
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Player
-;; Animations = 1
+;; Animations = 5
 GameItem0_Lo:
-;; AnimationType = Default
+;; AnimationType = idle
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_1, <GameItem0_0
+
+;; AnimationType = jump
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_4, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_5, <GameItem0_0
+
+;; AnimationType = walk
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_2, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_3, <GameItem0_0
+
+;; AnimationType = climb
+	.db <GameItem0_6, <GameItem0_6
+	.db <GameItem0_6, <GameItem0_6
+	.db <GameItem0_6, <GameItem0_6
+	.db <GameItem0_6, <GameItem0_6
+
+;; AnimationType = hurt
 	.db <GameItem0_0, <GameItem0_0
 	.db <GameItem0_0, <GameItem0_0
 	.db <GameItem0_0, <GameItem0_0
 	.db <GameItem0_0, <GameItem0_0
 
 GameItem0_Hi:
-;; AnimationType = Default
+;; AnimationType = idle
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_1, >GameItem0_0
+
+;; AnimationType = jump
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_4, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_5, >GameItem0_0
+
+;; AnimationType = walk
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_2, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_3, >GameItem0_0
+
+;; AnimationType = climb
+	.db >GameItem0_6, >GameItem0_6
+	.db >GameItem0_6, >GameItem0_6
+	.db >GameItem0_6, >GameItem0_6
+	.db >GameItem0_6, >GameItem0_6
+
+;; AnimationType = hurt
 	.db >GameItem0_0, >GameItem0_0
 	.db >GameItem0_0, >GameItem0_0
 	.db >GameItem0_0, >GameItem0_0
@@ -19,9 +67,9 @@ GameItem0_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 1 GameItem: Melee
+;;;; 1 GameItem: Carrot
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Melee
+;; Monster = Carrot
 ;; Animations = 1
 GameItem1_Lo:
 ;; AnimationType = Default
@@ -319,21 +367,21 @@ GameItem15_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 0 Monster Thing
+;;;; 0 Monster Snail
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Thing
+;; Monster = Snail
 ;; Animations = 1
 Object0_Lo:
-;; AnimationType = Default
+;; AnimationType = move
 	.db <Object0_0, <Object0_0
-	.db <Object0_0, <Object0_0
+	.db <Object0_1, <Object0_0
 	.db <Object0_0, <Object0_0
 	.db <Object0_0, <Object0_0
 
 Object0_Hi:
-;; AnimationType = Default
+;; AnimationType = move
 	.db >Object0_0, >Object0_0
-	.db >Object0_0, >Object0_0
+	.db >Object0_1, >Object0_0
 	.db >Object0_0, >Object0_0
 	.db >Object0_0, >Object0_0
 

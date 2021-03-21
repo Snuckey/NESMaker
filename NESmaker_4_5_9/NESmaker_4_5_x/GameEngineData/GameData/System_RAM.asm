@@ -1,5 +1,5 @@
 ;; *************** System_RAM.asm ***************
-;; Overflow RAM export. Tuesday, December 1, 2020 9:48:15 AM
+;; Overflow RAM export. Sunday, March 21, 2021 12:07:30 PM
 
 screenTriggers .dsb 32
 currentBank .dsb 1
@@ -152,9 +152,8 @@ mon2_type .dsb 1
 mon3_type .dsb 1
 mon4_type .dsb 1
 npcTrigger .dsb 1
-recoil_origin_x .dsb 1
-recoil_origin_y .dsb 1
-recoil_direction_x .dsb 1
-recoil_direction_y .dsb 1
 weaponsUnlocked .dsb 1
-weaponChoice .dsb 1
+self_screen_left .dsb 1
+self_screen_right .dsb 1
+other_screen_left .dsb 1
+other_screen_right .dsb 1
