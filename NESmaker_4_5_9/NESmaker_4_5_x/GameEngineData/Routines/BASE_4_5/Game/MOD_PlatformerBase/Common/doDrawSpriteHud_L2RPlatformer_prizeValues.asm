@@ -12,7 +12,7 @@
 	; arg5 = variable.
 	; arg6 = attribute
 	
-DrawSpriteHud #16, #16, #$7f, myLives, #$32, myLives, #%00000000  ;;;; this draws health
+DrawSpriteHud #16, #16, #$7f, myLives, #$32, myLives, #%00000000  ;;;; this draws health, 7f and 32 are spots on the sprite sheet, last 2 digits of hex are the palette to use
 
 ;;; Here, we are going to draw a sprite, followed by a little x, followed by numbers representing a quasi-score value.
 ;;; We are doing this all with sprites so that it can follow our hud more easily.  
@@ -27,6 +27,7 @@ DrawSpriteHud #16, #16, #$7f, myLives, #$32, myLives, #%00000000  ;;;; this draw
 	ADC #$40
 	;; now we have the number 40 + how many prizes we have.
 	;; so the resulting graphic will be 0-9.
+	;; Moves right on the player sprite sheet to find the number, starting at 0 and moving right
 	STA temp
 	DrawSprite #32, #26, temp, #$00
 	
