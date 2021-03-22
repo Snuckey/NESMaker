@@ -471,7 +471,7 @@
     <OverscanRight>0</OverscanRight>
     <OverscanTop>0</OverscanTop>
     <OverscanBottom>0</OverscanBottom>
-    <VideoScale>3.8125</VideoScale>
+    <VideoScale>3.81</VideoScale>
     <VideoFilter>None</VideoFilter>
     <UseBilinearInterpolation>false</UseBilinearInterpolation>
     <AspectRatio>NoStretching</AspectRatio>
@@ -485,7 +485,7 @@
     <Contrast>0</Contrast>
     <Hue>0</Hue>
     <Saturation>0</Saturation>
-    <ScanlineIntensity>0</ScanlineIntensity>
+    <ScanlineIntensity>9</ScanlineIntensity>
     <NtscArtifacts>0</NtscArtifacts>
     <NtscBleed>0</NtscBleed>
     <NtscFringing>0</NtscFringing>
@@ -1573,9 +1573,9 @@
     <ShowAttributeColorsOnly>false</ShowAttributeColorsOnly>
     <ShowTileGrid>false</ShowTileGrid>
     <ShowAttributeGrid>true</ShowAttributeGrid>
-    <HighlightChrTile>false</HighlightChrTile>
+    <HighlightChrTile>true</HighlightChrTile>
     <NtViewerUseGrayscalePalette>false</NtViewerUseGrayscalePalette>
-    <NtViewerHighlightTileUpdates>false</NtViewerHighlightTileUpdates>
+    <NtViewerHighlightTileUpdates>true</NtViewerHighlightTileUpdates>
     <NtViewerHighlightAttributeUpdates>true</NtViewerHighlightAttributeUpdates>
     <NtViewerIgnoreRedundantWrites>false</NtViewerIgnoreRedundantWrites>
     <SpriteViewerDisplaySpriteOutlines>true</SpriteViewerDisplaySpriteOutlines>
@@ -1669,8 +1669,8 @@
       <Y>0</Y>
     </WatchWindowLocation>
     <WindowLocation>
-      <X>130</X>
-      <Y>73</Y>
+      <X>71</X>
+      <Y>95</Y>
     </WindowLocation>
     <WindowWidth>1542</WindowWidth>
     <WindowHeight>889</WindowHeight>
@@ -1912,12 +1912,12 @@
   </HistoryViewerInfo>
   <GameSpecificSettings />
   <WindowLocation>
-    <X>883</X>
-    <Y>168</Y>
+    <X>1376</X>
+    <Y>183</Y>
   </WindowLocation>
   <WindowSize>
-    <Width>992</Width>
-    <Height>978</Height>
+    <Width>991</Width>
+    <Height>977</Height>
   </WindowSize>
   <CheatWindowLocation>
     <X>0</X>
