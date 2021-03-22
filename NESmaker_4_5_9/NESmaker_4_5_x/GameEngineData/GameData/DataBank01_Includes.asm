@@ -1,24 +1,20 @@
 ;; *************** DataBank01_Includes.asm ***************
-;; Script data export. Sunday, March 21, 2021 2:41:38 PM
+;; Script data export. Monday, March 22, 2021 11:42:14 AM
 Script00:
 	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\changeActionToMoving_ifNotJump.asm"
 Script01:
 	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\changeActionToStop_ifNotJump.asm"
 Script02:
-	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\climbLadderDown_Platformer.asm"
-Script03:
-	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\climbLadderUp_Platformer.asm"
-Script04:
 	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\do_simpleScrollRight.asm"
-Script05:
+Script03:
 	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\do_stopScrolling.asm"
-Script06:
+Script04:
 	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\jump_throughPlat.asm"
-Script07:
+Script05:
 	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\varJump.asm"
-Script08:
+Script06:
 	.include "Routines\BASE_4_5\Game\inputScripts\moveLeft.asm"
-Script09:
+Script07:
 	.include "Routines\BASE_4_5\Game\inputScripts\moveRight.asm"
-Script0a:
+Script08:
 	.include "Routines\BASE_4_5\Game\inputScripts\stopMoving.asm"
