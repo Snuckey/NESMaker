@@ -1,5 +1,5 @@
 ;; *************** ScriptTables.asm ***************
-;; Script link export. Monday, March 22, 2021 12:00:33 PM
+;; Script link export. Monday, March 22, 2021 2:18:55 PM
 ScriptAddressLo:
 	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06, #<Script07, #<Script08
 ScriptAddressHi:
@@ -48,20 +48,20 @@ DefinedTargetScripts_Released:
 
 ;;=======================HOLD=======================
 DefinedInputs_Held:
-	.db #%10000000, #%01000000
+	.db #%10000000, #%01000000, #%10000000
 
 DefinedScriptGameStates_Held:
-	.db #$00, #$00
+	.db #$00, #$00, #$00
 
 DefinedTargetObjects_Held:
-	.db #$00, #$00
+	.db #$00, #$00, #$00
 
 DefinedTargetController_Held:
-	.db #$00, #$00
+	.db #$00, #$00, #$00
 
 TargetState_Held:
-	.db #$00, #$00
+	.db #$00, #$00, #$00
 
 DefinedTargetScripts_Held:
-	.db #$07, #$06
+	.db #$07, #$06, #$02
 

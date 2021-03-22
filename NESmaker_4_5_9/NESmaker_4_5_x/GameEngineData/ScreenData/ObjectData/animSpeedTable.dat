@@ -62,13 +62,13 @@ GameItem14_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem15_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Mine
 Object0_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Tux
 Object1_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$02, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_animSpeedTable:

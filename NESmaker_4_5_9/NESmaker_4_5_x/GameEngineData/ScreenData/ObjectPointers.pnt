@@ -342,12 +342,46 @@ GameItem15_Hi:
 	.db >GameItem15_0, >GameItem15_0
 
 
-;;;;;;;;; Null Monster ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 0 Monster Mine
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Mine
+;; Animations = 1
 Object0_Lo:
+;; AnimationType = Roll
+	.db <Object0_0, <Object0_0
+	.db <Object0_1, <Object0_0
+	.db <Object0_0, <Object0_0
+	.db <Object0_0, <Object0_0
+
 Object0_Hi:
-;;;;;;;;; Null Monster ;;;;;;;;
+;; AnimationType = Roll
+	.db >Object0_0, >Object0_0
+	.db >Object0_1, >Object0_0
+	.db >Object0_0, >Object0_0
+	.db >Object0_0, >Object0_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 1 Monster Tux
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Tux
+;; Animations = 1
 Object1_Lo:
+;; AnimationType = Waddle
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+
 Object1_Hi:
+;; AnimationType = Waddle
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+
+
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object2_Lo:
 Object2_Hi:
