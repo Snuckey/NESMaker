@@ -1,5 +1,5 @@
 objectPal_0:
-.db #$0f, #$01, #$17, #$37
+.db #$2c, #$01, #$17, #$37
 objectPal_1:
 .db #$0f, #$01, #$05, #$30
 objectPal_2:
