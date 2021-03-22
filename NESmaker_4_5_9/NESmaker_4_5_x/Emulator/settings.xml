@@ -485,7 +485,7 @@
     <Contrast>0</Contrast>
     <Hue>0</Hue>
     <Saturation>0</Saturation>
-    <ScanlineIntensity>9</ScanlineIntensity>
+    <ScanlineIntensity>0</ScanlineIntensity>
     <NtscArtifacts>0</NtscArtifacts>
     <NtscBleed>0</NtscBleed>
     <NtscFringing>0</NtscFringing>

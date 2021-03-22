@@ -1,6 +1,6 @@
 ;; Monster: Bill
 GameItem0_ActionTypes:		;;ActionTimer / ActionTypeID
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$10, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Melee
 GameItem1_ActionTypes:		;;ActionTimer / ActionTypeID

@@ -1,6 +1,6 @@
 ;; Monster: Bill
 GameItem0_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$12, #$20, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$12, #$21, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Melee
 GameItem1_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed

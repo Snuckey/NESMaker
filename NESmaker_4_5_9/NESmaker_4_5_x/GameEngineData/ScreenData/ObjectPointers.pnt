@@ -8,7 +8,7 @@ GameItem0_Lo:
 	.db <GameItem0_0, <GameItem0_0
 	.db <GameItem0_0, <GameItem0_0
 	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_3, <GameItem0_0
 
 ;; AnimationType = Walk
 	.db <GameItem0_0, <GameItem0_0
@@ -17,17 +17,17 @@ GameItem0_Lo:
 	.db <GameItem0_1, <GameItem0_0
 
 ;; AnimationType = Jump
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_4
+	.db <GameItem0_4, <GameItem0_4
+	.db <GameItem0_0, <GameItem0_5
+	.db <GameItem0_5, <GameItem0_5
 
 GameItem0_Hi:
 ;; AnimationType = Idle
 	.db >GameItem0_0, >GameItem0_0
 	.db >GameItem0_0, >GameItem0_0
 	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_3, >GameItem0_0
 
 ;; AnimationType = Walk
 	.db >GameItem0_0, >GameItem0_0
@@ -36,10 +36,10 @@ GameItem0_Hi:
 	.db >GameItem0_1, >GameItem0_0
 
 ;; AnimationType = Jump
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_4
+	.db >GameItem0_4, >GameItem0_4
+	.db >GameItem0_0, >GameItem0_5
+	.db >GameItem0_5, >GameItem0_5
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
