@@ -5,7 +5,7 @@
       <BreakOnRead>false</BreakOnRead>
       <BreakOnWrite>true</BreakOnWrite>
       <BreakOnExec>true</BreakOnExec>
-      <Enabled>true</Enabled>
+      <Enabled>false</Enabled>
       <MarkEvent>false</MarkEvent>
       <ProcessDummyReadWrites>false</ProcessDummyReadWrites>
       <Address>2047</Address>
@@ -14,6 +14,62 @@
       <AddressType>SingleAddress</AddressType>
       <Condition />
       <MemoryType>CpuMemory</MemoryType>
+    </Breakpoint>
+    <Breakpoint>
+      <BreakOnRead>false</BreakOnRead>
+      <BreakOnWrite>false</BreakOnWrite>
+      <BreakOnExec>true</BreakOnExec>
+      <Enabled>true</Enabled>
+      <MarkEvent>false</MarkEvent>
+      <ProcessDummyReadWrites>false</ProcessDummyReadWrites>
+      <Address>465746</Address>
+      <StartAddress>0</StartAddress>
+      <EndAddress>0</EndAddress>
+      <AddressType>SingleAddress</AddressType>
+      <Condition />
+      <MemoryType>PrgRom</MemoryType>
+    </Breakpoint>
+    <Breakpoint>
+      <BreakOnRead>false</BreakOnRead>
+      <BreakOnWrite>false</BreakOnWrite>
+      <BreakOnExec>true</BreakOnExec>
+      <Enabled>false</Enabled>
+      <MarkEvent>false</MarkEvent>
+      <ProcessDummyReadWrites>false</ProcessDummyReadWrites>
+      <Address>508646</Address>
+      <StartAddress>0</StartAddress>
+      <EndAddress>0</EndAddress>
+      <AddressType>SingleAddress</AddressType>
+      <Condition />
+      <MemoryType>PrgRom</MemoryType>
+    </Breakpoint>
+    <Breakpoint>
+      <BreakOnRead>false</BreakOnRead>
+      <BreakOnWrite>false</BreakOnWrite>
+      <BreakOnExec>true</BreakOnExec>
+      <Enabled>false</Enabled>
+      <MarkEvent>false</MarkEvent>
+      <ProcessDummyReadWrites>false</ProcessDummyReadWrites>
+      <Address>465559</Address>
+      <StartAddress>0</StartAddress>
+      <EndAddress>0</EndAddress>
+      <AddressType>SingleAddress</AddressType>
+      <Condition />
+      <MemoryType>PrgRom</MemoryType>
+    </Breakpoint>
+    <Breakpoint>
+      <BreakOnRead>false</BreakOnRead>
+      <BreakOnWrite>false</BreakOnWrite>
+      <BreakOnExec>true</BreakOnExec>
+      <Enabled>true</Enabled>
+      <MarkEvent>false</MarkEvent>
+      <ProcessDummyReadWrites>false</ProcessDummyReadWrites>
+      <Address>464469</Address>
+      <StartAddress>0</StartAddress>
+      <EndAddress>0</EndAddress>
+      <AddressType>SingleAddress</AddressType>
+      <Condition />
+      <MemoryType>PrgRom</MemoryType>
     </Breakpoint>
   </Breakpoints>
   <WatchValues />

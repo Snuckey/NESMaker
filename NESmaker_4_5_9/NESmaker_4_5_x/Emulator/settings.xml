@@ -1552,8 +1552,8 @@
     <CopyByteCode>false</CopyByteCode>
     <CopyComments>false</CopyComments>
     <PpuWindowLocation>
-      <X>127</X>
-      <Y>226</Y>
+      <X>2918</X>
+      <Y>921</Y>
     </PpuWindowLocation>
     <PpuNametableViewerLocation>
       <X>64</X>
@@ -1594,8 +1594,8 @@
     <ShowPpuMemoryMapping>true</ShowPpuMemoryMapping>
     <ShowRightPanel>true</ShowRightPanel>
     <ShowBottomPanel>true</ShowBottomPanel>
-    <LeftPanelWidth>1165</LeftPanelWidth>
-    <TopPanelHeight>450</TopPanelHeight>
+    <LeftPanelWidth>1121</LeftPanelWidth>
+    <TopPanelHeight>630</TopPanelHeight>
     <CodeVerifiedDataColor ColorString="#FFFCEC" />
     <CodeUnidentifiedDataColor ColorString="#FFF2F2" />
     <CodeUnexecutedCodeColor ColorString="#E1F4E4" />
@@ -1644,14 +1644,17 @@
     <RamChrReadByteColor ColorString="LightSteelBlue" />
     <RamMemoryType>CpuMemory</RamMemoryType>
     <MemoryViewerSize>
-      <Width>0</Width>
-      <Height>0</Height>
+      <Width>703</Width>
+      <Height>432</Height>
     </MemoryViewerSize>
     <MemoryViewerLocation>
-      <X>0</X>
-      <Y>0</Y>
+      <X>26</X>
+      <Y>26</Y>
     </MemoryViewerLocation>
-    <ApuViewerLocation xsi:nil="true" />
+    <ApuViewerLocation>
+      <X>104</X>
+      <Y>104</Y>
+    </ApuViewerLocation>
     <ProfilerSize>
       <Width>681</Width>
       <Height>424</Height>
@@ -1669,8 +1672,8 @@
       <Y>0</Y>
     </WatchWindowLocation>
     <WindowLocation>
-      <X>71</X>
-      <Y>95</Y>
+      <X>2609</X>
+      <Y>801</Y>
     </WindowLocation>
     <WindowWidth>1542</WindowWidth>
     <WindowHeight>889</WindowHeight>
@@ -1685,7 +1688,7 @@
     <DisableDefaultLabels>false</DisableDefaultLabels>
     <RefreshWhileRunning>false</RefreshWhileRunning>
     <ShowMemoryValuesInCodeWindow>true</ShowMemoryValuesInCodeWindow>
-    <BreakOnOpen>true</BreakOnOpen>
+    <BreakOnOpen>false</BreakOnOpen>
     <BreakOnReset>true</BreakOnReset>
     <BreakOnUnofficialOpcodes>true</BreakOnUnofficialOpcodes>
     <BreakOnBrk>false</BreakOnBrk>
@@ -1730,18 +1733,18 @@
     <TraceFontSize>12</TraceFontSize>
     <TraceTextZoom>100</TraceTextZoom>
     <ScriptWindowSize>
-      <Width>0</Width>
-      <Height>0</Height>
+      <Width>981</Width>
+      <Height>626</Height>
     </ScriptWindowSize>
     <ScriptWindowLocation>
-      <X>0</X>
-      <Y>0</Y>
+      <X>130</X>
+      <Y>130</Y>
     </ScriptWindowLocation>
-    <ScriptCodeWindowHeight>0</ScriptCodeWindowHeight>
+    <ScriptCodeWindowHeight>423</ScriptCodeWindowHeight>
     <RecentScripts />
     <SaveScriptBeforeRun>true</SaveScriptBeforeRun>
     <ScriptStartupBehavior>ShowTutorial</ScriptStartupBehavior>
-    <AutoLoadLastScript>true</AutoLoadLastScript>
+    <AutoLoadLastScript>false</AutoLoadLastScript>
     <ScriptFontFamily>Consolas</ScriptFontFamily>
     <ScriptFontStyle>Regular</ScriptFontStyle>
     <ScriptFontSize>12</ScriptFontSize>
@@ -1912,8 +1915,8 @@
   </HistoryViewerInfo>
   <GameSpecificSettings />
   <WindowLocation>
-    <X>1376</X>
-    <Y>183</Y>
+    <X>1130</X>
+    <Y>236</Y>
   </WindowLocation>
   <WindowSize>
     <Width>991</Width>

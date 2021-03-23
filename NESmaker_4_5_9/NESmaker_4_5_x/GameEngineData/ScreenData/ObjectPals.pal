@@ -3,7 +3,7 @@ objectPal_0:
 objectPal_1:
 .db #$2c, #$0f, #$30, #$28
 objectPal_2:
-.db #$0f, #$01, #$05, #$30
+.db #$2c, #$16, #$05, #$30
 objectPal_3:
 .db #$0f, #$01, #$05, #$30
 objectPal_4:

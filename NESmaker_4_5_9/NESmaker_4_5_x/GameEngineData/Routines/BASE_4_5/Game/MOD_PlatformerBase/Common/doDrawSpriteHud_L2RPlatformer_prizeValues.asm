@@ -12,14 +12,14 @@
 	; arg5 = variable.
 	; arg6 = attribute
 	
-DrawSpriteHud #16, #16, #$7f, myLives, #$32, myLives, #%00000000  ;;;; this draws health, 7f and 32 are spots on the sprite sheet, last 2 digits of hex are the palette to use
+DrawSpriteHud #16, #16, #$7f, myLives, #$50, myLives, #%00000000  ;;;; this draws health, 7f and 32 are spots on the sprite sheet, last 2 digits of hex are the palette to use
 
 ;;; Here, we are going to draw a sprite, followed by a little x, followed by numbers representing a quasi-score value.
 ;;; We are doing this all with sprites so that it can follow our hud more easily.  
 ;;; To do this, our game object tileset has numbers, 0-9, located at 40-49, and 4A represents the X.
 ;;; The identifier for the type of thing we're drawing is at 22.
 
-	DrawSprite #16, #26, #$22, #%00000001 ;; draws the "carrot"
+	DrawSprite #16, #26, #$51, #%00000001 ;; draws the "carrot"
 	DrawSprite #24, #26, #$4a, #$00 ;; draws the x 8 pixels to the right of it.
 	
 	LDA myPrizes
