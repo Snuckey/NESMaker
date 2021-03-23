@@ -1,5 +1,5 @@
 
-;; UserDefined var init export. Tuesday, March 23, 2021 3:44:54 PM
+;; UserDefined var init export. Tuesday, March 23, 2021 4:51:41 PM
 
 LDA #3 ; User Defined Var 0
 STA myLives
