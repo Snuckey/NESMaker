@@ -1,5 +1,5 @@
 ;; *************** HUD_BOX_CONSTANTS.dat ***************
-;; HUD Constants export. Tuesday, March 23, 2021 3:27:12 PM
+;; HUD Constants export. Tuesday, March 23, 2021 3:44:54 PM
 BOUNDS_LEFT  = $00
 BOUNDS_RIGHT  = $ff
 BOUNDS_TOP     = $20

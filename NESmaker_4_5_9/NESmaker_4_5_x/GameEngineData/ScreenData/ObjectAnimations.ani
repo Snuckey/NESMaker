@@ -119,14 +119,20 @@ GameItem0_5:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 1 GameItem: Melee
+;;;; 1 GameItem: Heart
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Melee
-;; Size = 1 by1
+;; Monster = Heart
+;; Size = 2 by2
 ;; Animation = DefaultAnimation
 GameItem1_0:
-.db #$00
-.db #%00000000
+.db #$60
+.db #%00000001
+.db #$61
+.db #%00000001
+.db #$70
+.db #%00000001
+.db #$71
+.db #%00000001
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -155,11 +161,17 @@ GameItem3_0:
 ;;;; 4 GameItem: Health Pickup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Health Pickup
-;; Size = 1 by1
+;; Size = 2 by2
 ;; Animation = DefaultAnimation
 GameItem4_0:
-.db #$00
-.db #%00000000
+.db #$60
+.db #%00000001
+.db #$61
+.db #%00000001
+.db #$70
+.db #%00000001
+.db #$71
+.db #%00000001
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
