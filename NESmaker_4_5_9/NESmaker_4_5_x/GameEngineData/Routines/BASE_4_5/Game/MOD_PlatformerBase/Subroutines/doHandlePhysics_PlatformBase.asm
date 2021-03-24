@@ -146,9 +146,9 @@ doHandlePhysics:
 		AND #%00000010 ;; first 4 d-pad, select, start, b, a (so this is if b is pressed)
 		BEQ +ignoreFastCheck
 			;; it is player AND b button is pressed
-			LDA #$00
+			LDA #$08
 			STA myMaxSpeed
-			LDA #$03 ;; change max speed to 48
+			LDA #$02 ;; change max speed to 48
 			STA myMaxSpeed+1
 	+ignoreFastCheck
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
