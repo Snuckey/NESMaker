@@ -1552,8 +1552,8 @@
     <CopyByteCode>false</CopyByteCode>
     <CopyComments>false</CopyComments>
     <PpuWindowLocation>
-      <X>2918</X>
-      <Y>921</Y>
+      <X>260</X>
+      <Y>432</Y>
     </PpuWindowLocation>
     <PpuNametableViewerLocation>
       <X>64</X>
@@ -1915,8 +1915,8 @@
   </HistoryViewerInfo>
   <GameSpecificSettings />
   <WindowLocation>
-    <X>1130</X>
-    <Y>236</Y>
+    <X>823</X>
+    <Y>221</Y>
   </WindowLocation>
   <WindowSize>
     <Width>991</Width>

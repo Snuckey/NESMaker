@@ -1,5 +1,5 @@
 ;; *************** UserDefinedConstants.asm ***************
-;; UserDefinedConstants export. Wednesday, March 24, 2021 9:07:42 AM
+;; UserDefinedConstants export. Wednesday, March 24, 2021 11:29:47 AM
 
 OBJECT_OBSERVES_INPUT  = $20
 OBJECT_OBSERVES_PHYSICS  = $10
@@ -20,3 +20,4 @@ GS_StartScreen  = $00
 HUD_OFFSET  = $c0
 TEXT_MORE_INDICATOR  = $00
 HUD_BANK  = $1e
+PRIZE_BLOCK_HIT_TILE  = $4c
