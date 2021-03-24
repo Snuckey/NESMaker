@@ -148,7 +148,7 @@ doHandlePhysics:
 			;; it is player AND b button is pressed
 			LDA #$00
 			STA myMaxSpeed
-			LDA #$02 ;; change max speed to 32
+			LDA #$03 ;; change max speed to 48
 			STA myMaxSpeed+1
 	+ignoreFastCheck
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	

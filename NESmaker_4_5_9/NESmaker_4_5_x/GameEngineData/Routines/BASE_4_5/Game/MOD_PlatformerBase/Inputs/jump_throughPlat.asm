@@ -76,24 +76,6 @@
     STA temp ;; assumes the object we want to move is in x.
     ;PlaySound #sfx_thump
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-    LDA gamepad
-    AND #%00000010
-    BEQ +nevermind
-        ;; player 1 is holding b button
-        LDA #$00
-        STA Object_v_speed_lo,x
-        LDA #$08
-        EOR #$FF
-        STA Object_v_speed_hi,x
-        TXA
-        STA temp
-        JMP +skipJumping
-    +nevermind
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
     LDY Object_type,x
     LDA ObjectJumpSpeedLo,y
     EOR #$FF
