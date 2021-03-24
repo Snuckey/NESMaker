@@ -70,9 +70,9 @@ Object0_ActionTypes:
 Object1_ActionTypes:
 	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Bob
 Object2_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$44, #$31, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object3_ActionTypes:

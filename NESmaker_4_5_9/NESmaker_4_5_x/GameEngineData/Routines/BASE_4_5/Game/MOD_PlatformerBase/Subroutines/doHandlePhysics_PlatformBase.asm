@@ -702,4 +702,76 @@ isSolidSoLand:
 		STA Object_v_speed_hi,x
 doneWithGravity:
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Inserted to allow enemies to move up and down instead of just L/R
+VerticalMovement:
+	LDA Object_direction,x
+	AND #%00100000
+	BEQ +noVertMovement
+		;; there is vertical movement
+		LDA Object_direction,x
+		AND #%00010000
+		BEQ +isUpMovement
+			;; is down movement
+			LDA Object_y_lo,x
+			CLC
+			ADC myMaxSpeed;Object_v_speed_lo,x
+			STA yHold_lo
+			LDA Object_y_hi,x
+			ADC myMaxSpeed+1;Object_v_speed_hi,x
+			STA yHold_hi
+				CLC
+				ADC self_bottom
+				CMP #BOUNDS_BOTTOM ;#240
+			
+				BCS doBottomBounds
+					JMP +noVertMovement
+				doBottomBounds:
+					CPX player1_object
+					BEQ +isPlayer
+						DestroyObject
+						JMP skipPhysics
+					+isPlayer
+						LDA yPrev
+						STA yHold_hi
+						STA Object_y_hi,x
+						; LDA #$00
+						; STA Object_v_speed_hi,x
+						; STA Object_v_speed_lo,x
+						; LDA #$00
+						; STA screenUpdateByte
+						; JSR doHandleBounds
+						JMP skipPhysics
+		+isUpMovement
+			LDA Object_y_lo,x
+			SEC
+			SBC myMaxSpeed;Object_v_speed_lo,x
+			STA yHold_lo
+			LDA Object_y_hi,x
+			SBC myMaxSpeed+1;Object_v_speed_hi,x
+			BCC +doTopBounds ;; helps if top bounds is zero. 
+			STA yHold_hi
+			CMP #BOUNDS_TOP
+				BEQ +doTopBounds
+				BCC +doTopBounds
+					JMP +noVertMovement
+				+doTopBounds
+					CPX player1_object
+					BEQ +isPlayer
+						DestroyObject
+						JMP skipPhysics
+					+isPlayer
+						
+						LDA yPrev
+						STA yHold_hi
+						STA Object_y_hi,x
+						; LDA #$00
+						; STA Object_v_speed_hi,x
+						; STA Object_v_speed_lo,x
+						; LDA #$02
+						; STA screenUpdateByte
+						; JSR doHandleBounds
+						JMP skipPhysics
+	+noVertMovement
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 skipPhysics:

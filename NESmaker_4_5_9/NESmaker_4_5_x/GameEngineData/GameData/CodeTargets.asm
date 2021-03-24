@@ -1,5 +1,5 @@
 ;; *************** CodeTargets.asm ***************
-;; Code Target data export. Wednesday, March 24, 2021 11:29:46 AM
+;; Code Target data export. Wednesday, March 24, 2021 2:58:03 PM
 ROOT EQU Routines\BASE_4_5\
 SCR_MAIN EQU "Routines\BASE_4_5\System\MainASM.asm"
 SCR_HEADER EQU "Routines\BASE_4_5\System\Header.asm"
@@ -114,8 +114,8 @@ SCR_AI_0 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_AI_1 EQU "Routines\BASE_4_5\Game\AI_Scripts\MoveRandom_8Dir.asm"
 SCR_AI_2 EQU "Routines\BASE_4_5\Game\AI_Scripts\StopMoving.asm"
 SCR_AI_3 EQU "Routines\BASE_4_5\Game\MOD_PlatformerBase\AI\MoveLeft.asm"
-SCR_AI_4 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
-SCR_AI_5 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
+SCR_AI_4 EQU "Routines\Custom\AI Behaviors\MoveDown.asm"
+SCR_AI_5 EQU "Routines\Custom\AI Behaviors\MoveUp.asm"
 SCR_AI_6 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_AI_7 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_AI_8 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"

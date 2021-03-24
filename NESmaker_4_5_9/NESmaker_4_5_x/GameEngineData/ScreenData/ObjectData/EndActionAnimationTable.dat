@@ -70,9 +70,9 @@ Object0_EndAction:
 Object1_EndAction:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Bob
 Object2_EndAction:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$03, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object3_EndAction:
