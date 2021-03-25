@@ -1,6 +1,6 @@
-;; Collision data export. Thursday, March 25, 2021 3:25:00 PM
+;; Collision data export. Thursday, March 25, 2021 3:50:22 PM
 ;; GraphicBankID = 0x01
-;; PaletteID = 0x00
+;; PaletteID = 0x02
 
 ;; Collision:
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
@@ -25,7 +25,7 @@ Screen_Over_12_info:
 ;; Byte 2: Bank info screen bank(4bits)/graphic bank(2 bits)/00(2bits) CHANGED ***** NightTriggeredMonsterGroupByte
 	.db #$00
 ;; Byte 3: ScreenPaletteId
-	.db #$00
+	.db #$02
 ;; Byte 4: MainTileId(4) / ScreenTileID(4) CHANGED ***** ObjectPaletteTriggeredNight1ID
 	.db #$00
 ;; Byte 5: All screen bits (Respawn/DayNight/Paths/Boss/Dark/Underground/Animated/ShowText)
@@ -44,7 +44,7 @@ Screen_Over_12_info:
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$72
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$f3
+	.db #$8a
 ;; Byte 14: Monster 3 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 15: Monster 1 Origin Night Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
