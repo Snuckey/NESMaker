@@ -72,7 +72,7 @@ Object1_animSpeedTable:
 
 ;; Monster: Bob
 Object2_animSpeedTable:
-	.db #$01, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object3_animSpeedTable:
