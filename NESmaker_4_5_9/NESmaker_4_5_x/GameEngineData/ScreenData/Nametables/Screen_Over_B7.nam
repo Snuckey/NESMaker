@@ -1,5 +1,5 @@
 ;; *************** NULL SCREEN ***************
-;; Screen data export. Thursday, March 25, 2021 8:52:48 AM
+;; Screen data export. Thursday, March 25, 2021 11:10:31 AM
 ;; GraphicBankID = 0x00
 ;; PaletteID = 0x00
 .db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
