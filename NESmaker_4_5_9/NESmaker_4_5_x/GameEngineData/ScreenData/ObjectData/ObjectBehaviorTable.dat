@@ -74,9 +74,9 @@ Object1_ActionTypes:
 Object2_ActionTypes:
 	.db #$44, #$31, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Clippy
 Object3_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$51, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object4_ActionTypes:
