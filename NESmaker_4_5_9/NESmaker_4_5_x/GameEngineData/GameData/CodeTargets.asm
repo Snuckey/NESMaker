@@ -1,5 +1,5 @@
 ;; *************** CodeTargets.asm ***************
-;; Code Target data export. Wednesday, March 24, 2021 5:07:08 PM
+;; Code Target data export. Thursday, March 25, 2021 8:52:53 AM
 ROOT EQU Routines\BASE_4_5\
 SCR_MAIN EQU "Routines\BASE_4_5\System\MainASM.asm"
 SCR_HEADER EQU "Routines\BASE_4_5\System\Header.asm"
@@ -167,7 +167,7 @@ SCR_UPDATE_SCROLL_COLUMN EQU "Routines\BASE_4_5\Game\Subroutines\doUpdateScrollC
 SCR_HANDLE_V_SCROLL EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_HANDLE_SCREEN_UPDATE EQU "Routines\BASE_4_5\Game\Subroutines\doHandleUpdateScreen.asm"
 SCR_UPDATE_ACTION_TIMER EQU "Routines\BASE_4_5\Game\Subroutines\doUpdateActionTimer.asm"
-SCR_COMPARE_BBOX EQU "Routines\BASE_4_5\Game\Subroutines\doCompareBoundingBoxes_multiScreen.asm"
+SCR_COMPARE_BBOX EQU "Routines\Custom\Subroutines\doCompareBoundingBoxes_MultiScreen_Fixed.asm"
 SCR_DRAW_BOX EQU "Routines\BASE_4_5\Game\Subroutines\doDrawBox.asm"
 SCR_HANDLE_PATHS EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_EXTRA_SOUND_EFFECTS EQU "Routines\BASE_4_5\Game\Subroutines\ExtraSFX.asm"

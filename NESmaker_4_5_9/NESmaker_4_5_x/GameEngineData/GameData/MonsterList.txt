@@ -1,5 +1,5 @@
 ;; *************** MonsterList.txt ***************
-;; Monster list export. Wednesday, March 24, 2021 5:07:09 PM
+;; Monster list export. Thursday, March 25, 2021 8:52:54 AM
 
 ;;;; 0	GameItem: Bill ID=0
 ;;;; 1	GameItem: Heart ID=1
