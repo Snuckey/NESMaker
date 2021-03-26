@@ -1,4 +1,4 @@
-;; Collision data export. Friday, March 26, 2021 9:44:35 AM
+;; Collision data export. Friday, March 26, 2021 3:12:48 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x01
 
@@ -130,7 +130,7 @@ Screen_Over_ff_info:
 ;; Byte 58: Monster 4 Night Triggered ID
 	.db #$00
 ;; Byte 59: Song Day ID
-	.db #$00
+	.db #$01
 ;; Byte 60: Song Day Triggered ID
 	.db #$00
 ;; Byte 61: Song Night ID
