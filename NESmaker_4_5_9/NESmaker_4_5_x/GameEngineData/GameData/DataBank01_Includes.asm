@@ -1,5 +1,5 @@
 ;; *************** DataBank01_Includes.asm ***************
-;; Script data export. Thursday, March 25, 2021 3:50:31 PM
+;; Script data export. Friday, March 26, 2021 9:44:41 AM
 Script00:
 	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\changeActionToMoving_ifNotJump.asm"
 Script01:
@@ -20,3 +20,5 @@ Script08:
 	.include "Routines\BASE_4_5\Game\inputScripts\stopMoving.asm"
 Script09:
 	.include "Routines\BASE_4_5\Game\inputScripts\startGameWithNewContinuePoints.asm"
+Script0a:
+	.include "Routines\BASE_4_5\Game\inputScripts\simpleReset.asm"
